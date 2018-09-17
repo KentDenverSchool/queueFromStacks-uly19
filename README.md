@@ -1,7 +1,7 @@
 # QueueFromStacks
 A Queue can be simulated using two Stacks: One for **enqueuing** and one for **dequeuing**
 
-When you pop and the dequeuing stack is empty, transfer all enqueue stack items onto the dequeueing stack using pop and push (thus reversing order of elements as they enter the dequeuing stack).
+When you dequeue and the dequeuing stack is empty, transfer all enqueue stack items onto the dequeueing stack using pop and push (thus reversing order of elements as they enter the dequeuing stack).
 
 ```java
 
